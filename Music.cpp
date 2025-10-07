@@ -1,7 +1,7 @@
-
-ic.h"
+#include "Music.h"
 #include <iostream>
 #include <iomanip>
+#include <cstring>
 using namespace std;
 
 Music::Music(const char* t, const char* a, int y, float d, const char* pub)

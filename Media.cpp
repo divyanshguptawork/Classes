@@ -1,7 +1,7 @@
 #include "Media.h"
 
 Media::Media(const char*t, int y) {
-  stmcpy(title, t, 99);
+  strncpy(title, t, 99);
   title[99] = '\0';
   year = y;
 }
